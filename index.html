@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive watches website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">
+                    <i class='bx bxs-watch nav-logo-icon'></i>Rolex
+                </a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#featured" class="nav-link">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#new" class="nav-link">New</a>
+                    </li>
+                </ul>
+
+                <div class="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="nav-btn">
+                <!-- THEME CHANGE BUTTON  -->
+                <i class='bx bx-moon change-theme' ></i>
+                <div class="nav-shop">
+                    <i class='bx bx-shopping-bag' ></i>
+                </div>
+
+                <div class="nav-toggle">
+                    <i class='bx bx-menu' ></i>
+                </div>
+            </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart-close' id="cart-close"></i>
+            <h2 class="cart-title-center">My Cart</h2>
+                <article class="cart-card">
+                    <div class="cart-box">
+                        <img src="assets/img/featured1.png" alt="" class="cart-img">
+                    </div>
+                    <div class="cart-detail">
+                        <h3 class="cart-title">Jazzmaster</h3>
+                        <span class="cart-price">
+                            $1050
+                        </span>
+                        <div class="cart-amount">
+                            <div class="cart-amount-content">
+                                <span class="cart-amount-box">
+                                    <i class='bx bx-minus'></i>
+                                </span>
+                                <span class="cart-amount-number">1</span>
+                                <span class="cart-amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+                            <i class='bx bx-trash cart-amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="cart-card">
+                    <div class="cart-box">
+                        <img src="assets/img/featured2.png" alt="" class="cart-img">
+                    </div>
+                    <div class="cart-detail">
+                        <h3 class="cart-title">Rose Gold</h3>
+                        <span class="cart-price">
+                            $850
+
+                        </span>
+                        <div class="cart-amount">
+                            <div class="cart-amount-content">
+                                <span class="cart-amount-box">
+                                    <i class='bx bx-minus'></i>
+                                </span>
+                                <span class="cart-amount-number">1</span>
+                                <span class="cart-amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+                            <i class='bx bx-trash cart-amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="cart-card">
+                    <div class="cart-box">
+                        <img src="assets/img/featured3.png" alt="" class="cart-img">
+                    </div>
+                    <div class="cart-detail">
+                        <h3 class="cart-title">Longines Rose</h3>
+                        <span class="cart-price">
+                            $980
+                        </span>
+                        <div class="cart-amount">
+                            <div class="cart-amount-content">
+                                <span class="cart-amount-box">
+                                    <i class='bx bx-minus'></i>
+                                </span>
+                                <span class="cart-amount-number">1</span>
+                                <span class="cart-amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+                            <i class='bx bx-trash cart-amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                <div class="cart-prices">
+                    <span class="cart-prices-item">3 items</span>
+                    <span class="cart-prices-total">$2880</span>
+                </div>
+        </div>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home-container container grid">
+                    <div class="home-bg-img">
+                        <img src="assets/img/home.png" class="home-img" alt="">
+                    </div>
+                    
+                    <div class="home-social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home-social-link">Facebook</a>
+                        <a href="https://twitter.com/" target="_blank" class="home-social-link">Twitter</a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home-social-link">Instagram</a>
+                    </div>
+
+                    <div class="home-data">
+                        <h1 class="home-title">
+                            NEW WATCH <br> COLLECTIONS B720
+                        </h1>
+                        <p class="home-description">
+                            Latest arrival of the new imported watches of the B720 series, 
+                            with a modern and resistant design.
+                        </p>
+                        <span class="home-price">$1245</span>
+
+                        <div class="home-btn">
+                            <a href="" class="button button-gray button-small">Discover</a>
+                            <button class="button home-button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section-title">
+                    featured
+                </h2>
+                <div class="featured-container grid">
+                    <article class="featured-card">
+                        <span class="featured-tag">Sale</span>
+                        <img src="assets/img/featured1.png" class="featured-img" alt="">
+                        <div class="featured-data">
+                            <h3 class="featured-title">Jazzmaster</h3>
+                            <span class="featured-price">$1050</span>
+                        </div>
+                        <button class="button featured-btn">
+                            ADD TO CATR
+                        </button>
+                    </article>
+
+                    <article class="featured-card">
+                        <span class="featured-tag">Sale</span>
+                        <img src="assets/img/featured2.png" class="featured-img" alt="">
+                        <div class="featured-data">
+                            <h3 class="featured-title">Ingersoll</h3>
+                            <span class="featured-price">$250</span>
+                        </div>
+                        <button class="button featured-btn">
+                            ADD TO CATR
+                        </button>
+                    </article>
+
+                    <article class="featured-card">
+                        <span class="featured-tag">Sale</span>
+                        <img src="assets/img/featured3.png" class="featured-img" alt="">
+                        <div class="featured-data">
+                            <h3 class="featured-title">Rose gold</h3>
+                            <span class="featured-price">$890</span>
+                        </div>
+                        <button class="button featured-btn">
+                            ADD TO CATR
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story-container grid">
+                    <h2 class="section-title">
+                        our story
+                    </h2>
+                    <div class="story-data">
+                        <h1 class="story-title">
+                            Inspirational Watch of <br> this year
+                        </h1>
+                        <p class="story-description">
+                            The latest and modern watches of this year, is available in various 
+                            presentations in this store, discover them now.
+                        </p>
+                        <a href="#" class="button button-small">discover</a>
+                    </div>
+                    <div class="story-images">
+                        <img src="assets/img/story.png" alt="" class="story-img">
+                        <div class="story-square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section-title">
+                    products
+                </h2>
+                <div class="products-container grid">
+                    <div class="products-card">
+                        <img src="assets/img/product1.png" alt="" class="products-img">
+                        <h3 class="products-title">Spirit rose</h3>
+                        <span class="products-price">$1500</span>
+                        <button class="products-button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </div>
+                    <div class="products-card">
+                        <img src="assets/img/product2.png" alt="" class="products-img">
+                        <h3 class="products-title">Khaki pilot</h3>
+                        <span class="products-price">$1350</span>
+                        <button class="products-button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </div>
+                    <div class="products-card">
+                        <img src="assets/img/product3.png" alt="" class="products-img">
+                        <h3 class="products-title">Jubilee black</h3>
+                        <span class="products-price">$870</span>
+                        <button class="products-button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </div>
+                    <div class="products-card">
+                        <img src="assets/img/product4.png" alt="" class="products-img">
+                        <h3 class="products-title">Fosil me3</h3>
+                        <span class="products-price">$650</span>
+                        <button class="products-button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </div>
+                    <div class="products-card">
+                        <img src="assets/img/product5.png" alt="" class="products-img">
+                        <h3 class="products-title">Duchen</h3>
+                        <span class="products-price">$950</span>
+                        <button class="products-button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section-title">
+                    new arrivals
+                </h2>
+                <div class="new-container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new-card swiper-slide">
+                                <span class="new-tag">
+                                    new
+                                </span>
+                                <img src="assets/img/new1.png" alt="" class="new-img">
+                                <div class="new-data">
+                                    <h3 class="new-title">
+                                        Longines rose
+                                    </h3>
+                                    <span class="new-price">$980</span>
+                                </div>
+                                <button class="button new-button">ADD TO CART</button>
+                            </article>
+                            <article class="new-card swiper-slide">
+                                <span class="new-tag">
+                                    new
+                                </span>
+                                <img src="assets/img/new2.png" alt="" class="new-img">
+                                <div class="new-data">
+                                    <h3 class="new-title">
+                                        Jazzmaster
+                                    </h3>
+                                    <span class="new-price">$1150</span>
+                                </div>
+                                <button class="button new-button">ADD TO CART</button>
+                            </article>
+                            <article class="new-card swiper-slide">
+                                <span class="new-tag">
+                                    new
+                                </span>
+                                <img src="assets/img/new3.png" alt="" class="new-img">
+                                <div class="new-data">
+                                    <h3 class="new-title">
+                                        Dreyfuss gold
+                                    </h3>
+                                    <span class="new-price">$750</span>
+                                </div>
+                                <button class="button new-button">ADD TO CART</button>
+                            </article>
+                            <article class="new-card swiper-slide">
+                                <span class="new-tag">
+                                    new
+                                </span>
+                                <img src="assets/img/new4.png" alt="" class="new-img">
+                                <div class="new-data">
+                                    <h3 class="new-title">
+                                        Portuguese rose
+                                    </h3>
+                                    <span class="new-price">$1590</span>
+                                </div>
+                                <button class="button new-button">ADD TO CART</button>
+                            </article>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter-bg grid">
+                    <div>
+                        <h2 class="newsletter-title">
+                            Subscribe Our <br> Newsletter
+                        </h2>
+                        <p class="newsletter-description">
+                            Don't miss out on your discounts. Subscribe to our email 
+newsletter to get the best offers, discounts, coupons, 
+gifts and much more.
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter-subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="button">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer-container grid container">
+                <div class="footer-content">
+                    <h3 class="footer-title">Our information</h3>
+                    <ul class="footer-list">
+                        <li>1234 - Peru</li>
+                        <li>La Libertad 43210</li>
+                        <li>123-456-789</li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">Product</h3>
+                    <ul class="footer-list">
+                        <li><a href="" class="footer-link">Road bikes</a></li>
+                        <li><a href="" class="footer-link">Mountain bikes</a></li>
+                        <li><a href="" class="footer-link">Electric</a></li>
+                        <li><a href="" class="footer-link">Accesories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">Social</h3>
+                    <ul class="footer-social">
+                        <a target="_blank" href="https://www.facebook.com/" class="footer-social-link"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a target="_blank" href="https://twitter.com/" class="footer-social-link"><i class='bx bxl-twitter' ></i></a>
+                        <a target="_blank" href="https://www.instagram.com/" class="footer-social-link"><i class='bx bxl-instagram' ></i></a>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer-copy">&#169; Bedimcode. All rigths reserved</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="" class="scroll-up" id="scroll-up"><i class='bx bxs-chevron-up scroll-up-icon'></i></a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
